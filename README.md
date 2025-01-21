@@ -1,11 +1,11 @@
 # Container-Structure-Test
-
+```
 Run sudo curl -LO https://github.com/GoogleContainerTools/container-structure-test/releases/latest/download/container-structure-test-linux-amd64 && sudo chmod +x container-structure-test-linux-amd64 && sudo mv container-structure-test-linux-amd64 /usr/local/bin/container-structure-test
 
-sudo container-structure-test test --image mg-backend-web --config test.yml
+```
 
 ```
-(base) cipl1168@cipl1168ROR:~/Personal-Github/Container-Structure-Test$ sudo container-structure-test test --image mg-backend-web --config test.yml 
+(base) hemachandran@dell-desktop:~/Personal-Github/Container-Structure-Test$ sudo container-structure-test test --image mg-backend-web --config test.yml 
 
 =================================
 ====== Test file: test.yml ======
