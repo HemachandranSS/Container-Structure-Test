@@ -1,0 +1,14 @@
+schemaVersion: "2.0.0"
+fileExistenceTests:
+  - name: "Check if main app file exists"
+    path: "/var/www/app/app/controllers/application.py"
+    shouldExist: true
+
+commandTests:
+  - name: "say hello world"
+    command: "bash"
+    args:
+      - -c
+      - |
+         echo hello &&
+         echo world
